@@ -65,4 +65,20 @@ h3 {
     display: none;
   }
 
+button {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    background-color: #b19cd9;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
   /* RESULTS STYLE */
+  #albumCover {
+      height: 25rem;
+      width: 25rem;
+      background-color: black;
+      margin-bottom: 3rem;
+  }
