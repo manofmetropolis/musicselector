@@ -71,18 +71,30 @@ h3 {
   }
 
 button {
-    margin-bottom: 2rem;
-    background-color: #b19cd9;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     text-transform: uppercase;
     padding: 1.2rem;
 }
 
   /* RESULTS STYLE */
+  .hide {
+    display: none;
+  }
+
+  #resultsBox {
+    margin-bottom: 2rem;
+  }
+
   #albumCover {
       height: 25rem;
       width: 25rem;
       background-color: black;
-      margin-bottom: 3rem;
+      margin: 0 auto 2rem;
+  }
+
+  #albumCover img {
+    height: 100%;
+    width: 100%;
   }
